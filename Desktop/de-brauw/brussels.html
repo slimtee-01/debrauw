@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+            <!-- bootstrap css -->
+            <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+            <!-- animate plugin -->
+            <link href="\css/animate.min.css" rel="stylesheet" type="text/css">
+            <!-- fontawesome -->
+            <link href="fontawesome/css/all.css" rel="stylesheet" type="text/css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            <style type="text/css">
+                
+                .dropdown{
+                    text-decoration: none;
+                }
+                .dropdown:hover > .dropdown-menu { 
+                    display: block;
+                    margin-top: 0;
+                    color: #ed4c20;
+                    }
+                .hel{
+                    background-image: url("{{url_for('static',filename='media/four.jpg.jpeg')}}");
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    max-width: 100vh;
+                }
+                #lkl{
+                    color: silver;
+                }                                
+                .mmm:hover{
+                    color: #ed4c20;
+                }
+                #fet:hover,#ser:hover,#lkl,#blog:hover{
+                    color: #ed4c20;
+                }
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+                a:hover{
+                    color: #5d1929;
+                }
+                footer a{
+                    color: white;
+                }
+                
+            </style>
+    </head>
+    <body>
+        <header class="">
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+              <div class="container-xl">
+                <p class="navbar-brand ps-3 d-lg-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+                </p>
+                <div>
+                    <a href="index.html" class="btn yyy" type="submit" style="font-size: x-small; color: #f2f8fa; font-family: sans-serif;"><b>DE BRAUW<br> BLACKSTONE<br> WESTBROEK</b></a>
+                </div>
+                <div class="justify-content-end">
+                    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                </div>
+                
+                
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="fet" href="#" data-bs-auto-close="outside" aria-expanded="false">Firm</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item mmm" href="ourfirm.html">About Our Firm</a></li>
+                          <li><a class="dropdown-item mmm" href="index.html">De Brauw News</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="ser" data-bs-auto-close="outside" aria-expanded="false">People</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item mmm" href="people.html">All about our people</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="blog" aria-expanded="false">Contact Us</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item mmm" href="amsterdam.html">Amsterdam</a></li>
+                           <li><a class="dropdown-item mmm" href="brussels.html">Brussel</a></li>
+                        </ul>
+                    </li>
+                  </ul>
+                  <!-- <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Track Item" aria-label="Search">
+                    <a href="" class="btn btn-outline-success" type="submit">Track</a>
+                  </form> -->
+                  <p class="navbar-brand ps-3 d-none d-lg-flex">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/></svg>
+                </p>
+                </div>
+                
+              </div>
+            </nav>
+        </header>
+        
+        <main class="container my-5">
+            <div class="py-5" style="color: #5d1929;">
+                <small><b>Offices / Brussels</b></small>
+                <h1 class="my-4"><b>BRUSSELS</b></h1>
+                <img src="media/brussels.jpeg" class="w-75">
+                <p class="py-5">From our Brussels office, we advise our clients on all aspects of EU law, including Competition, State Aid and Data Protection, as well as foreign direct investment regulations. We assist our clients on their dealings with the European Commission and national authorities, and have a strong track record in acting before the EU and national courts.</p>
+                <p>From the heart of the European Union, we maintain excellent contacts with policymakers and authorities, and provide our clients with a swift and an effective response to regulatory investigations. Matters typically span many different jurisdictions across the globe (specifically our mergers, cartels, litigation and data protection matters), and our teams (across different time zones) assure our clients of expert and seamless advice, wherever and whenever required.</p>
+                <p>Together with our Best Friends firms, our team consists of more than 40 Brussels-based lawyers, making it one of the largest practices in Brussels. Our competition presence in seven EU Member States (with more than 175 lawyers) makes us one of the largest European competition practices covering all major European jurisdictions. We are ranked as the leading experts in these jurisdictions by all of the relevant legal directories.</p>
+                <h1 class="py-3"><b>CONTACT</b></h1>
+
+                <div class="py-4">
+                    <h4>Reception</h4>
+                    <p>E coxchamber.lawyer_debrauw@zohomail.com</p>
+                    <p>De Meeûssquare 40 1000 Brussels Belgium</p>
+                </div>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.502421290809!2d4.366120475831015!3d50.84037985921274!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c484c31b0f91%3A0xf32867bf8b8e8051!2sSq.%20de%20Mee%C3%BBs%2040%2C%201000%20Bruxelles%2C%20Belgium!5e0!3m2!1sen!2sus!4v1684895955442!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </main>
+
+
+
+
+
+
+
+        <!-- FOOTER -->
+        <footer class="container-xl mt-0" style="background-color: #212529; color: white;">
+            <div class="row py-5">
+                <div class="col-6 col-lg-2 ps-5 ps-lg-2">
+                    <h2>Offices</h2>
+                    <div class="my-2"><a href="amsterdam.html">Amsterdam</a></div>
+                    <div class="my-2"><a href="brussels.html">Brussels</a></div>
+                </div>
+
+
+
+                <div class="col-6 col-lg-4 pe-5 pe-lg-0">
+                    <h2>Contact</h2>
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                    </svg> <span>coxchamber.lawyer_<br class="d-flex d-lg-none">debrauw@zohomail.com</span></p>
+
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                    </svg> <span>Claude Debussylaan 80, 1082 MD Amsterdam Netherlands</span></p>
+
+                    <p><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mailbox" viewBox="0 0 16 16">
+                      <path d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
+                      <path d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854zM5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z"/>
+                    </svg></i> <span>P.O. Box 75084 1070 AB Amsterdam The Netherlands</span></p>
+                </div>
+                <div class="col-lg-6">
+                    <h2>Subscribe</h2>
+                    <p>To receive our regular updates please register your areas of interest below.</p>
+                    <button type="button" class="btn btn-outline-secondary">Request Regular Update</button><br><br>
+                    <a href="" class=""><i class="fa-brands fa-linkedin pe-2" style="font-size: xx-large;"></i></a>
+                    <a href="" class=""><i class="fa-brands fa-instagram px-2" style="font-size: xx-large;"></i></a>
+                    <a href="" class=""><i class="fa-brands fa-facebook px-2" style="font-size: xx-large;"></i></a>
+                    <a href="" class=""><i class="fa-brands fa-twitter px-2" style="font-size: xx-large;"></i></a>
+                </div>
+            </div>
+          <!-- <p class="float-end"><a href="#">Back to top</a></p>
+          <p>&copy; 2017–2022 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p> -->
+        </footer>
+    </body>
+<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.6.1.min" type="text/javascript"></script> 
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function(){
+
+        }
+</html>
